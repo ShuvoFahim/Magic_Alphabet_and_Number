@@ -5,13 +5,24 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material
+    2100000: BG
+    2100002: alphabet___border
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube
+    4300000: Cube_000
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG
+    second: {fileID: 2100000, guid: 702eef62bf977c7409d75483d00a1a2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alphabet___border
+    second: {fileID: 2100000, guid: 656c67d2b18baec48b7228906abfe5a0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
