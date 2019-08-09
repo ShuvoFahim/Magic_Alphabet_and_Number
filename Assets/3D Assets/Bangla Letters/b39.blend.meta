@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2fbec57e1a96127409a1f0268adf870a
+guid: fad63cd3c438295438a1cc022c7bc568
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -17,12 +17,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BG
-    second: {fileID: 2100000, guid: 8374b3b0bdb4f394bac6aa511d286c9a, type: 2}
+    second: {fileID: 2100000, guid: 33490609a05148e49a7789ed179d1f48, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: alphabet___border
-    second: {fileID: 2100000, guid: 43366cdd487fb234bb53d1378782d9fa, type: 2}
+    second: {fileID: 2100000, guid: 660b2616c08809044a282deb7a5b04b2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

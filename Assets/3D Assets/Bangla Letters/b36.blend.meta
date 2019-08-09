@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: de3fd65197354174487c29890071c6a8
+guid: 6e29ad12d2132e34981c3c742428a242
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: alphabet___color
-    2100002: BG
+    2100000: BG
+    2100002: alphabet___border
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube_006
+    4300000: Cube_000
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -17,12 +17,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BG
-    second: {fileID: 2100000, guid: 647252a3c8c352a448d9f334d56566a3, type: 2}
+    second: {fileID: 2100000, guid: 158450b9d31e80e4dbc60d881e047f73, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: alphabet___color
-    second: {fileID: 2100000, guid: 6d39f3d83707dce4c8bc5b79cd94eb55, type: 2}
+      name: alphabet___border
+    second: {fileID: 2100000, guid: 8638e08192544494fbd3e8866af04fa7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
