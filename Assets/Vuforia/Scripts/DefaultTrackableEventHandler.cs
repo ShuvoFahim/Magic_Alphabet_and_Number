@@ -1,6 +1,5 @@
 /*==============================================================================
 Copyright (c) 2017 PTC Inc. All Rights Reserved.
-
 Copyright (c) 2010-2014 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
 Confidential and Proprietary - Protected under copyright and other laws.
@@ -61,7 +60,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     private GameObject EIGHT;
     private GameObject NINE;
 
-    
+
     private GameObject Bangla1;
     private GameObject Bangla2;
     private GameObject Bangla3;
@@ -112,7 +111,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     private GameObject Bangla48;
     private GameObject Bangla49;
     private GameObject Bangla50;
-    
+
     private GameObject Bangla_zero;
     private GameObject Bangla_one;
     private GameObject Bangla_two;
@@ -143,7 +142,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #region UNITY_MONOBEHAVIOUR_METHODS
 
-    private void FindingAssets() {
+    private void FindingAssets()
+    {
 
         A = GameObject.Find("A");
         B = GameObject.Find("B");
@@ -194,7 +194,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         Bangla_eight = GameObject.Find("n8");
         Bangla_nine = GameObject.Find("n9");
 
-        Bangla1 = GameObject.Find("a1") ;
+        Bangla1 = GameObject.Find("a1");
         Bangla2 = GameObject.Find("a2");
         Bangla3 = GameObject.Find("a3");
         Bangla4 = GameObject.Find("a4");
@@ -348,7 +348,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         }
     }
 
-    protected void EnglishAlphabetTargetFound() {
+    protected void EnglishAlphabetTargetFound()
+    {
 
         if (mTrackableBehaviour.Trackable.Name == "A")
         {
@@ -458,7 +459,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     }
 
-    protected void EnglishNumberTargetFound() {
+    protected void EnglishNumberTargetFound()
+    {
 
         if (mTrackableBehaviour.Trackable.Name == "0-0")
         {
@@ -468,7 +470,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         {
             ONE.GetComponent<AudioSource>().Play();
         }
-         if (mTrackableBehaviour.Trackable.Name == "0-2")
+        if (mTrackableBehaviour.Trackable.Name == "0-2")
         {
             TWO.GetComponent<AudioSource>().Play();
         }
@@ -503,9 +505,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     }
 
-    protected void BanglaNumberTargetFound() {
+    protected void BanglaNumberTargetFound()
+    {
 
-        if (mTrackableBehaviour.Trackable.Name == "n0") {
+        if (mTrackableBehaviour.Trackable.Name == "n0")
+        {
             Bangla_zero.GetComponent<AudioSource>().Play();
         }
         if (mTrackableBehaviour.Trackable.Name == "n1")
@@ -544,10 +548,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         {
             Bangla_nine.GetComponent<AudioSource>().Play();
         }
-      
+
     }
 
-    protected void BanglaAlphabetTargetFound() {
+    protected void BanglaAlphabetTargetFound()
+    {
 
 
 
@@ -860,7 +865,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             Bangla50.GetComponent<AudioSource>().Stop();
         }
 
-        if (CurrentScene.name == "EnglishNumber") {
+        if (CurrentScene.name == "EnglishNumber")
+        {
 
             ZERO.GetComponent<AudioSource>().Stop();
             ONE.GetComponent<AudioSource>().Stop();
@@ -875,7 +881,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         }
 
-        if (CurrentScene.name == "BanglaNumber") {
+        if (CurrentScene.name == "BanglaNumber")
+        {
 
             Bangla_zero.GetComponent<AudioSource>().Stop();
             Bangla_one.GetComponent<AudioSource>().Stop();
