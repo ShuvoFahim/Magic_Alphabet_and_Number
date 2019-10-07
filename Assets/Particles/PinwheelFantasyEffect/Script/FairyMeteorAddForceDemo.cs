@@ -17,4 +17,9 @@ public class FairyMeteorAddForceDemo : MonoBehaviour {
     {
         rgbd.AddForce(direction * strength);
     }
+    private void Update()
+    {
+        rgbd = GetComponent<Rigidbody>();
+        rgbd.AddForce(direction * strength);
+    }
 }
